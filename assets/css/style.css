@@ -24,6 +24,8 @@ body {
     color: #d9dcd6;
 }
 
+
+/* was originally for the div that was located in the header class but switched to select a nav when switching div to nav for better semantic clarity in index.html */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -86,6 +88,7 @@ p {
     background-color: #2589bd;
 }
 
+/* This class was reduntantly copied three times for each of the individual benefits. Consolidated all three classes into a singular benefit-sections class */
 .benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +105,8 @@ p {
     max-width: 150px;
 }
 
+
+/* condensed three redundant classes into one services class */
 .services {
     margin-bottom: 20px;
     padding: 50px;
